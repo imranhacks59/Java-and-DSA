@@ -11,18 +11,15 @@ package oops;
 
 public class Teacher extends Person{
 
-   private double salary;
-//    public Teacher(String name,String address, double salary){
-//        super(name,address);
-//        setSalary(salary);
-//    }
-
-    public void run(){
-        System.out.println("Teacher is running");
+    private double salary;
+    public Teacher(String name,String address, double salary){
+        super(name,address);
+        setSalary(salary);
     }
 
+
     public void setSalary(double newSalary){
-       salary=newSalary;
+        salary=newSalary;
     }
     public double getSalary(){
         return salary;
